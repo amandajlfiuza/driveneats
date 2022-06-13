@@ -65,3 +65,15 @@ function liberarBotao() {
         document.querySelector(".fechar-pedido").classList.add("botao-selecionado");
     }
 }
+function fecharPedido() {
+    let total = Number(valorPrato) + Number(valorBebida) + Number(valorSobremesa);
+    let numero = 5584988151226;
+    let mensagem = encodeURIComponent(
+    `Olá, gostaria de fazer o pedido:
+    - Prato: ${nomePrato}
+    - Bebida: ${nomeBebida}
+    - Sobremesa: ${nomeSobremesa}
+    Total: R$ ${total}`);
+    const url = `https://wa.me/${numero}?text=${mensagem}`;
+    window.location = url;
+}

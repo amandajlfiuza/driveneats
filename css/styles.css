@@ -153,3 +153,6 @@
     .botao-selecionado {
         background-color: #32B72F;
     }
+    .botao-selecionado:hover {
+        cursor: pointer;
+    }
