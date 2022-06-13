@@ -24,167 +24,87 @@
 
     <div class="conteudo">
         <div class="titulo-categoria">Primeiro, seu prato</div>
-        <div class="produtos">
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
+        <div class="pratos">
+            <div class="prato" onclick="selecionarPrato(this), ativarCheckPrato(this)">
+                <img src="./imagens/ravioli-casieros-ricota-e-espinafre.PNG" />
+                <h3>Ravioli de ricota e espinafre</h3>
+                <p>Recheados com ricota e espinafre, servido com molho de tomate caseiro e lascas de parmesão.</p>
+                <h4>R$ <span class="valor">45.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
+            <div class="prato" onclick="selecionarPrato(this), ativarCheckPrato(this)">
+                <img src="./imagens/taglioni-caseiros-ao-camaroes.PNG" />
+                <h3>Taglioni pretos ao camarão</h3>
+                <p>Massa caseira tingida com tinta de lulas, servida com camarões, tomate cereja, alho e salsinha.</p>
+                <h4>R$ <span class="valor">49.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/frango_yin_yang 1.png" />
-                <h3>Frango Yin Yang</h3>
-                <p>Um pouco de batata, um pouco de salada</p>
-                <h4>R$ 14,90</h4>
+            <div class="prato" onclick="selecionarPrato(this), ativarCheckPrato(this)">
+                <img src="./imagens/caserecce-al-ragu-com-linguica-de-pernil.PNG" />
+                <h3>Caserecee ao ragú de linguiça</h3>
+                <p>Ragú de linguiça de pernil cozinhada no vinho tinto e queijo parmesão.</p>
+                <h4>R$ <span class="valor">47.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
         </div>
 
         <div class="titulo-categoria">Agora, sua bebida</div>
-        <div class="produtos">
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
+        <div class="bebidas">
+            <div class="bebida" onclick="selecionarBebida(this), ativarCheckBebida(this)">
+                <img src="./imagens/vinho.png" />
+                <h3>Vinho tinto</h3>
+                <p>Taça</p>
+                <h4>R$ <span class="valor">19.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
+            <div class="bebida" onclick="selecionarBebida(this), ativarCheckBebida(this)">
                 <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
+                <h3>Coca-cola</h3>
                 <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
+                <h4>R$ <span class="valor">5.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350ml</p>
-                <h4>R$ 4,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/coquinha_gelada 1.png" />
-                <h3>Coquinha gelada</h3>
-                <p>Lata 350 ml</p>
-                <h4>R$ 4,90</h4>
+            <div class="bebida" onclick="selecionarBebida(this), ativarCheckBebida(this)">
+                <img src="./imagens/agua-mineral.png" />
+                <h3>Água mineral</h3>
+                <p>Garrafa 500ml</p>
+                <h4>R$ <span class="valor">3.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
         </div>
 
         <div class="titulo-categoria">Por fim, sua sobremesa</div>
-        <div class="produtos">
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
+        <div class="sobremesas">
+            <div class="sobremesa" onclick="selecionarSobremesa(this), ativarCheckSobremesa(this)">
+                <img src="./imagens/sorbet-tropical.png" />
+                <h3>Sorbet tropical</h3>
+                <p>Sorbet de fruta, sem açúcar e sem lactose.</p>
+                <h4>R$ <span class="valor">18.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
+            <div class="sobremesa" onclick="selecionarSobremesa(this), ativarCheckSobremesa(this)">
+                <img src="./imagens/tiramisu-della-casa.png" />
+                <h3>Tiramisù della casa</h3>
+                <p>Camadas de biscoito de champagne, embebidas em café expresso e entremeadas pelo creme da Casa.</p>
+                <h4>R$ <span class="valor">26.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudim</p>
-                <h4>R$ 7,90</h4>
-            </div>
-            <div>
-                <img src="./imagens/pudim 1.png" />
-                <h3>Pudim</h3>
-                <p>Apenas pudiml</p>
-                <h4>R$ 7,90</h4>
+            <div class="sobremesa" onclick="selecionarSobremesa(this), ativarCheckSobremesa(this)">
+                <img src="./imagens/cannoli.png" />
+                <h3>Cannoli</h3>
+                <p>Clássico do Poderoso Chefão.</p>
+                <h4>R$ <span class="valor">22.00</span></h4>
+                <ion-icon name="checkmark-circle-sharp" class="check"></ion-icon>
             </div>
         </div>
     </div>
     <div class="barra-inferior">
         <div class="fechar-pedido">
-            <p>Selecione os 3 itens para fechar o pedido</p>
+            <p class="texto-botao">Selecione os 3 itens para fechar o pedido</p>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./javascript/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
